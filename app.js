@@ -4,3 +4,7 @@ const person = {
   age: 25,
   job: "Developer",
 };
+
+// Soal 2
+console.log(person.name);
+console.log(person.job);
