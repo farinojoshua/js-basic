@@ -109,11 +109,11 @@ Then call it.
 const person = {
   name: "John",
 };
-person.greetings = function () {
+person.greet = function () {
   return `Hi, my name is ${this.name}`;
 };
 
-console.log(person.greetings());
+console.log(person.greet());
 ```
 
 ---
