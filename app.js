@@ -14,3 +14,6 @@ person["hobby"] = "Reading";
 
 // Soal 4
 person.age = 30;
+
+// Soal 5
+delete person.job;
