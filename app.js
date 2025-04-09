@@ -11,3 +11,6 @@ console.log(person.job);
 
 // Soal 3
 person["hobby"] = "Reading";
+
+// Soal 4
+person.age = 30;
