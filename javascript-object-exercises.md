@@ -106,6 +106,9 @@ Add a method called `greet` inside `person` object that returns:
 Then call it.
 
 ```javascript
+const person = {
+  name: "John",
+};
 person.greetings = function () {
   return `Hi, my name is ${this.name}`;
 };
