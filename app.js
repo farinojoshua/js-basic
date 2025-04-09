@@ -8,3 +8,6 @@ const person = {
 // Soal 2
 console.log(person.name);
 console.log(person.job);
+
+// Soal 3
+person["hobby"] = "Reading";
