@@ -29,3 +29,10 @@ const student = {
 };
 
 console.log(student.address.city);
+
+// soal 7
+person.greetings = function () {
+  return `Hi, my name is ${this.name}`;
+};
+
+console.log(person.greetings());
